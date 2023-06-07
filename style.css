@@ -1,0 +1,161 @@
+body {
+	margin: 0px; 
+	background-color: #eaeaea; 
+}
+
+.header {
+	width: 100%;
+	position: -webkit-fixed; 
+	position: fixed;
+	top: 0px;
+	background-color:  #141850;
+	margin: 0px; 
+	padding: 0px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header h2 {
+	padding-left: 6px;
+	color: white; 
+	font-family:  Helvetica;
+}
+
+h2 {
+	font-family:  Helvetica;
+	color: #141850;
+}
+
+.app {
+	margin-top: 45px; 
+	background-color: #ffffff;
+	padding: 6px;
+	margin-left: 8px;
+	margin-right: 8px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 9px;
+}
+
+#userName {
+	width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #141850;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 7px 7px 7px 0px; 
+	
+}
+
+#userName:focus {
+	outline: none; 
+	
+}
+
+#requestInput {
+	width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #141850;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 7px 7px 7px 0px; 
+}
+
+#requestInput:focus {
+	outline: none; 
+}
+
+#imagePreview {
+	margin: 5px;
+	width:100px;
+	height: 100px;
+	border: 1px solid gold; 
+	border-radius: 7px
+}
+
+img[src=""] {
+   display: none; 
+ }
+ 
+ #btnSubmit {
+ 	border: none; 
+    padding: 9px;
+ 	background-color: #141850;
+     color: white;
+     border-radius: 6px;
+}
+
+#btn{
+	border-radius: 16px; 
+}
+
+.card {
+	border-radius: 9px; 
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.commentInfo {
+	border-radius: 6px;
+	width: 83%;
+	height: 47%;
+	position: relative;
+	top: -45px;
+	left: 45px; 
+	padding:3px;
+}
+
+#commentPhoto {
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid  #141850;
+}
+
+#displayName{
+	position: relative; 
+	top: -35px; 
+	left: 0px; 
+	font-family:  Helvetica;
+	color: #141850;
+}
+
+#displayTime {
+	font-size: 12px; 
+	position: relative;
+	top: -70px;
+	left:5px;
+}
+
+#displayComment {
+	font-size: 17px; 
+	color: black;
+	font-family:  Helvetica;
+	position: relative;
+	top: -75px;
+	left: 0px;
+	font-weight: normal;
+}
+
+#postPhoto {
+	width: 250px;
+	height: 150px;
+	position: relative; 
+	top: -70px;
+	left: 0px;
+	border-radius: 9px;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
